@@ -59,11 +59,19 @@ The app uses the following Flutter dependencies:
 - **`pie_chart: ^5.0.0`**: Renders the pie chart for season progress visualization.
 - **`intl: ^0.17.0`**: Manages and formats dates for event scheduling.
 
+## Project File Structure 
+- **lib file** :
+  - Contains the main code for the app. This is where most of the Flutter-related files and Dart logic can be found.
+- **assets file** :
+  - Stores images
+- **README.md** :
+  - Provides an overview of the project
+
 ## Technologies Used
 - **Flutter**: Framework for building the mobile application.
 - **Dart**: The programming language used for backend logic and app development.
 - **SQLite**: Used for local database storage of player information.
-- **Pie Chart**: Displays progress of the season using the 'pie_chart' dependency.
+- **Pie Chart**: Displays progress of the season using the `pie_chart` dependency.
 - **Intl**: Used for formatting dates.
 
 ## How to Use
